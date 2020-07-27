@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=PT+Serif&display=swap");
+/* Config variables */
+/* Responsive design mixins */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.container--header {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 1200px;
+}
+
+.page-section {
+  width: 100vw;
+  max-width: 100%;
+  padding: 1.5rem;
+}
+.page-section--dark-blue {
+  background-color: #007abb;
+}
+.page-section--hero {
+  background-color: mediumseagreen;
+}
+
+.hero {
+  background-color: #d5ded8;
+}
+
+.image--full-width {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.headline {
+  font-weight: 700;
+  font-size: 2.875rem;
+  margin: 10px 0;
+}
+.headline--centered {
+  text-align: center;
+}
+.headline--white {
+  color: #fff;
+}
+.headline--large {
+  font-size: 4rem;
+}
+.headline--small {
+  font-size: 1.875rem;
+}
+.headline--narrow {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headline--light {
+  font-weight: 500;
+}
+.headline--b-margin-small {
+  margin-bottom: 0.5em;
+}
+.headline--b-margin-large {
+  margin-bottom: 1.2em;
+}
+
+.logo {
+  color: #007abb;
+  min-height: 100px;
+  max-width: 300px;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 5px;
+  margin-top: 1rem;
+}
+.navbar__nav-list {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar__nav-item {
+  color: #3a4a3f;
+  font-weight: 700;
+}
+
+.btn-alert, .btn-success, .btn-primary {
+  color: #fff;
+  padding: 0.75rem 1.2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007abb;
+}
+
+.btn-success {
+  background-color: mediumseagreen;
+}
+
+.btn-alert {
+  background-color: tomato;
+}
+
+/*# sourceMappingURL=/app.c09d0a7b.css.map */

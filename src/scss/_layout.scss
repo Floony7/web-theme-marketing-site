@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.container--header {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 1200px;
+}
+
+.page-section {
+  width: 100vw;
+  max-width: 100%;
+  padding: 1.5rem;
+
+  &--dark-blue {
+    background-color: $dark-blue;
+  }
+
+  &--hero {
+    background-color: $green;
+  }
+}
