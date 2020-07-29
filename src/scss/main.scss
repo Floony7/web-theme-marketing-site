@@ -1,8 +1,15 @@
-@import "./config.scss";
-@import "./mixins";
-@import "./layout.scss";
-@import "./hero.scss";
-@import "./images.scss";
-@import "./headline.scss";
-@import "./header";
-@import "./button";
+@import "normalize.css";
+@import "./modules/config.scss";
+@import "./modules/mixins";
+@import "./modules/grid.scss";
+@import "./modules/layout.scss";
+@import "./modules/hero.scss";
+@import "./modules/typography.scss";
+@import "./modules/headline.scss";
+@import "./modules/header";
+@import "./modules/button";
+
+.image--full-width {
+  width: 100vw;
+  max-width: 100%;
+}
